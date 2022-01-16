@@ -11,4 +11,6 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
 RUN npm i -g serverless@2.35.0
+RUN apt-get -y update
+RUN apt-get -y install git
 ENTRYPOINT ["serverless"]
