@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.9-nodejs18
+FROM node:18-alpine
 
 LABEL version="1.0.0"
 LABEL repository="https://github.com/serverless/github-action"
